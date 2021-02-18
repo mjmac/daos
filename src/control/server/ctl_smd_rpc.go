@@ -14,10 +14,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common/proto/convert"
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/common/proto/convert"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 func queryRank(reqRank uint32, srvRank system.Rank) bool {

@@ -10,7 +10,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
 )
 
 func TestHostList_CreateNumericList(t *testing.T) {

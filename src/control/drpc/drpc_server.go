@@ -15,7 +15,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 // MaxMsgSize is the maximum drpc message size that may be sent.

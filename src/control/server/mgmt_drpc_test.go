@@ -14,10 +14,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	sharedpb "github.com/daos-stack/daos/src/control/common/proto/shared"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/common"
+	sharedpb "github.com/mjmac/soad/src/control/common/proto/shared"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 func getTestNotifyReadyReqBytes(t *testing.T, sockPath string, idx uint32) []byte {

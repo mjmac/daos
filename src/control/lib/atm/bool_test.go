@@ -9,7 +9,7 @@ package atm_test
 import (
 	"testing"
 
-	"github.com/daos-stack/daos/src/control/lib/atm"
+	"github.com/mjmac/soad/src/control/lib/atm"
 )
 
 func TestAtomicBool(t *testing.T) {

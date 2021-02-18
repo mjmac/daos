@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	. "github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/engine"
-	"github.com/daos-stack/daos/src/control/server/storage/scm"
+	. "github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/engine"
+	"github.com/mjmac/soad/src/control/server/storage/scm"
 )
 
 func TestServer_Instance_createSuperblock(t *testing.T) {

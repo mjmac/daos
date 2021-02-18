@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
 )
 
 // FirmwareQuery is not implemented if firmware management is not enabled in the build.

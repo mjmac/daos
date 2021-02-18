@@ -17,16 +17,16 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/peer"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/common/proto/convert"
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
-	sharedpb "github.com/daos-stack/daos/src/control/common/proto/shared"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/events"
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/common/proto/convert"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
+	sharedpb "github.com/mjmac/soad/src/control/common/proto/shared"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/events"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 // GetAttachInfo handles a request to retrieve a map of ranks to fabric URIs, in addition

@@ -11,7 +11,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/daos-stack/daos/src/control/drpc"
+	"github.com/mjmac/soad/src/control/drpc"
 )
 
 // helloMethod is a type alias for a drpc agent hello method.

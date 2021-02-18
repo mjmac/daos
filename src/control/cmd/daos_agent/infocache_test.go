@@ -17,11 +17,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/daos-stack/daos/src/control/common"
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
-	"github.com/daos-stack/daos/src/control/lib/atm"
-	"github.com/daos-stack/daos/src/control/lib/netdetect"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/common"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
+	"github.com/mjmac/soad/src/control/lib/atm"
+	"github.com/mjmac/soad/src/control/lib/netdetect"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 const maxConcurrent = 100

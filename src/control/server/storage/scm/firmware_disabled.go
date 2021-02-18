@@ -7,7 +7,7 @@
 package scm
 
 import (
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 // firmwareProvider does nothing if firmware operations are not enabled.

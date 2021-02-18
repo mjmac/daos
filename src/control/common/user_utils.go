@@ -9,7 +9,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 // GetConsent scans stdin for yes/no

@@ -14,8 +14,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 
-	"github.com/daos-stack/daos/src/control/server/config"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/server/config"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 type hostnameGetterFn func() (string, error)

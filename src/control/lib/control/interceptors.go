@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 
-	"github.com/daos-stack/daos/src/control/common/proto"
+	"github.com/mjmac/soad/src/control/common/proto"
 )
 
 // connErrToFault attempts to resolve a network connection

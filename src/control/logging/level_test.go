@@ -8,7 +8,7 @@ package logging_test
 import (
 	"testing"
 
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 func TestLogLevelToString(t *testing.T) {

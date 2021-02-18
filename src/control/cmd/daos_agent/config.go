@@ -12,8 +12,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/security"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/security"
 )
 
 const (

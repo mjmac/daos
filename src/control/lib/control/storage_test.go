@@ -13,9 +13,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/common"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 func TestControl_StorageScan(t *testing.T) {

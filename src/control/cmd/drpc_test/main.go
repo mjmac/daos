@@ -17,9 +17,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/cmd/drpc_test/hello"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/cmd/drpc_test/hello"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 var (

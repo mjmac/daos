@@ -35,9 +35,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/daos-stack/daos.git</connection>
-    <developerConnection>scm:git:ssh://github.com:daos-stack/daos.git</developerConnection>
-    <url>https://github.com/daos-stack/daos/tree/master</url>
+    <connection>scm:git:git://github.com/mjmac/soad.git</connection>
+    <developerConnection>scm:git:ssh://github.com:mjmac/soad.git</developerConnection>
+    <url>https://github.com/mjmac/soad/tree/master</url>
   </scm>
 
   <distributionManagement>

@@ -6,7 +6,7 @@
 
 package config
 
-import "github.com/daos-stack/daos/src/control/logging"
+import "github.com/mjmac/soad/src/control/logging"
 
 // ControlLogLevel is a type that specifies log levels
 type ControlLogLevel logging.LogLevel

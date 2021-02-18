@@ -82,13 +82,13 @@ version of at least 1.10 is required.
 An exhaustive list of packages for each supported Linux distribution is
 maintained in the Docker files (please click on the link):
 
--    [CentOS](https://github.com/daos-stack/daos/blob/master/utils/docker/Dockerfile.centos.7#L53-L79)
--    [OpenSUSE](https://github.com/daos-stack/daos/blob/master/utils/docker/Dockerfile.leap.15#L71-L100)
--    [Ubuntu](https://github.com/daos-stack/daos/blob/master/utils/docker/Dockerfile.ubuntu.20.04#L21-L39)
+-    [CentOS](https://github.com/mjmac/soad/blob/master/utils/docker/Dockerfile.centos.7#L53-L79)
+-    [OpenSUSE](https://github.com/mjmac/soad/blob/master/utils/docker/Dockerfile.leap.15#L71-L100)
+-    [Ubuntu](https://github.com/mjmac/soad/blob/master/utils/docker/Dockerfile.ubuntu.20.04#L21-L39)
 
 The command lines to install the required packages can be extracted from
 the Docker files by removing the "RUN" command, which is specific to Docker.
-Check the [utils/docker](https://github.com/daos-stack/daos/tree/master/utils/docker)
+Check the [utils/docker](https://github.com/mjmac/soad/tree/master/utils/docker)
 directory for different Linux distribution versions.
 
 Some DAOS tests use MPI. The DAOS build process uses the environment modules
@@ -97,18 +97,18 @@ building those tests.
 
 ### DAOS Source Code
 
-The DAOS repository is hosted on [GitHub](https://github.com/daos-stack/daos).
+The DAOS repository is hosted on [GitHub](https://github.com/mjmac/soad).
 
 To checkout the latest stable version, simply run:
 
 ```bash
-$ git clone --recurse-submodules -b v1.0.1 https://github.com/daos-stack/daos.git
+$ git clone --recurse-submodules -b v1.0.1 https://github.com/mjmac/soad.git
 ```
 
 For the current development version, then run:
 
 ```bash
-$ git clone --recurse-submodules https://github.com/daos-stack/daos.git
+$ git clone --recurse-submodules https://github.com/mjmac/soad.git
 ```
 
 This command clones the DAOS git repository (path referred as ${daospath}
@@ -174,7 +174,7 @@ On Mac, please make sure that the Docker settings under
 To build the Docker image directly from GitHub, run the following command:
 
 ```bash
-$ docker build https://github.com/daos-stack/daos.git#master \
+$ docker build https://github.com/mjmac/soad.git#master \
         -f utils/docker/Dockerfile.centos.7 -t daos
 ```
 

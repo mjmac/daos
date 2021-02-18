@@ -15,13 +15,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/fault"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/pbin"
-	"github.com/daos-stack/daos/src/control/server/storage"
-	"github.com/daos-stack/daos/src/control/server/storage/bdev"
-	"github.com/daos-stack/daos/src/control/server/storage/scm"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/fault"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/pbin"
+	"github.com/mjmac/soad/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/server/storage/bdev"
+	"github.com/mjmac/soad/src/control/server/storage/scm"
 )
 
 func expectPayload(t *testing.T, resp *pbin.Response, payload interface{}, expPayload interface{}) {

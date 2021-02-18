@@ -9,7 +9,7 @@ package main
 import (
 	"os"
 
-	"github.com/daos-stack/daos/src/control/pbin"
+	"github.com/mjmac/soad/src/control/pbin"
 )
 
 func main() {

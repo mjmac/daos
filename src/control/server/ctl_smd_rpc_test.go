@@ -13,13 +13,13 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/config"
-	"github.com/daos-stack/daos/src/control/server/engine"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/common"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/config"
+	"github.com/mjmac/soad/src/control/server/engine"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 func TestServer_CtlSvc_SmdQuery(t *testing.T) {

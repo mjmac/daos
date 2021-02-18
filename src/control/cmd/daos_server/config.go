@@ -7,7 +7,7 @@
 package main
 
 import (
-	"github.com/daos-stack/daos/src/control/server/config"
+	"github.com/mjmac/soad/src/control/server/config"
 )
 
 type cfgLoader interface {

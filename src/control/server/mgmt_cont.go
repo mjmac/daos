@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
-	"github.com/daos-stack/daos/src/control/drpc"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
+	"github.com/mjmac/soad/src/control/drpc"
 )
 
 // ListContainers forwards a gRPC request to the DAOS I/O Engine to retrieve a pool's

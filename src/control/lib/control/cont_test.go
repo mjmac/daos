@@ -13,9 +13,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/common"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 func TestControl_ContSetOwner(t *testing.T) {

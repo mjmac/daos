@@ -12,11 +12,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/common"
-	srvpb "github.com/daos-stack/daos/src/control/common/proto/srv"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/engine"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/common"
+	srvpb "github.com/mjmac/soad/src/control/common/proto/srv"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/engine"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 func getTestEngineInstance(logger logging.Logger) *EngineInstance {

@@ -15,7 +15,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
+	"github.com/mjmac/soad/src/control/common"
 )
 
 // readACLFile reads in a file representing an ACL, and translates it into an

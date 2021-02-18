@@ -7,11 +7,11 @@
 package server
 
 import (
-	"github.com/daos-stack/daos/src/control/events"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/config"
-	"github.com/daos-stack/daos/src/control/server/storage/bdev"
-	"github.com/daos-stack/daos/src/control/server/storage/scm"
+	"github.com/mjmac/soad/src/control/events"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/config"
+	"github.com/mjmac/soad/src/control/server/storage/bdev"
+	"github.com/mjmac/soad/src/control/server/storage/scm"
 )
 
 // ControlService implements the control plane control service, satisfying

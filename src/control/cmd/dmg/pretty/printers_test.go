@@ -13,7 +13,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/control"
 )
 
 func TestControl_PrintHostErrorsMap(t *testing.T) {

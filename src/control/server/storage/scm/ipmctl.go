@@ -16,9 +16,9 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/lib/ipmctl"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/lib/ipmctl"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 var badIpmctlVers = []semVer{

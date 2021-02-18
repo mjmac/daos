@@ -25,7 +25,7 @@ The CaRT `self_test` and its tests are delivered as part of the daos_client
 and daos_tests [distribution packages][2]. It can also be built from scratch.
 
 ```bash
-$ git clone --recurse-submodules https://github.com/daos-stack/daos.git
+$ git clone --recurse-submodules https://github.com/mjmac/soad.git
 $ cd daos
 $ scons --build-deps=yes install
 $ cd install
@@ -238,9 +238,9 @@ restarted to gain visibility to these changes. For additional information,
 please refer to the [System Deployment: Agent Startup][6] documentation
 section.
 
-[1]: <https://github.com/daos-stack/daos/tree/master/src/cart> (Collective and RPC Transport)
-[2]: <https://github.com/daos-stack/daos/blob/master/doc/admin/installation.md#distribution-packages> (DAOS distribution packages)
-[3]: <https://github.com/daos-stack/daos/blob/master/doc/admin/installation.md#building-daos--dependencies> (DAOS build documentation)
-[4]: <https://github.com/daos-stack/daos/blob/master/doc/admin/deployment.md#server-startup> (DAOS server startup documentation)
+[1]: <https://github.com/mjmac/soad/tree/master/src/cart> (Collective and RPC Transport)
+[2]: <https://github.com/mjmac/soad/blob/master/doc/admin/installation.md#distribution-packages> (DAOS distribution packages)
+[3]: <https://github.com/mjmac/soad/blob/master/doc/admin/installation.md#building-daos--dependencies> (DAOS build documentation)
+[4]: <https://github.com/mjmac/soad/blob/master/doc/admin/deployment.md#server-startup> (DAOS server startup documentation)
 [5]: <https://www.open-mpi.org/faq/?category=running#mpirun-hostfile> (mpirun hostfile)
-[6]: <https://github.com/daos-stack/daos/blob/master/doc/admin/deployment.md#disable-agent-cache-optional> (System Deployment Agent Startup)
+[6]: <https://github.com/mjmac/soad/blob/master/doc/admin/deployment.md#disable-agent-cache-optional> (System Deployment Agent Startup)

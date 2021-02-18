@@ -14,9 +14,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/fault"
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/lib/txtfmt"
+	"github.com/mjmac/soad/src/control/fault"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/txtfmt"
 )
 
 var (

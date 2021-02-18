@@ -1,4 +1,4 @@
-module github.com/daos-stack/daos/src/control
+module github.com/mjmac/soad/src/control
 
 go 1.13
 

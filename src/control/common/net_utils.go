@@ -14,8 +14,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
 )
 
 // HasPort checks if addr specifies a port. This only works with IPv4

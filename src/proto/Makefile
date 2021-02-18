@@ -61,7 +61,7 @@ endif
 
 $(PROTOC):
 	@echo "Please install the protobufs compiler"
-	@echo "Details: https://github.com/daos-stack/daos/blob/master/doc/dev/development.md#protobuf-compiler"
+	@echo "Details: https://github.com/mjmac/soad/blob/master/doc/dev/development.md#protobuf-compiler"
 	@false
 
 GOPATH ?= $(shell go env GOPATH)

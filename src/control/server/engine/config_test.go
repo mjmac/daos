@@ -17,7 +17,7 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/daos-stack/daos/src/control/common"
+	"github.com/mjmac/soad/src/control/common"
 )
 
 var update = flag.Bool("update", false, "update .golden files")

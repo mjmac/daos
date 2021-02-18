@@ -16,10 +16,10 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 
-	"github.com/daos-stack/daos/src/control/common/proto/convert"
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/common/proto/convert"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 // HostStorage describes a host storage configuration which

@@ -16,12 +16,12 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/common/proto/convert"
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/common/proto/convert"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 // HostFabricInterface describes a host fabric interface.

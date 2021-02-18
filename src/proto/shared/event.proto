@@ -10,7 +10,7 @@
 syntax = "proto3";
 package shared;
 
-option go_package = "github.com/daos-stack/daos/src/control/common/proto/shared";
+option go_package = "github.com/mjmac/soad/src/control/common/proto/shared";
 
 // RASEvent describes a RAS event in the DAOS system.
 message RASEvent {

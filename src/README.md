@@ -96,7 +96,7 @@ The DAOS management API is intended to be integrated with different
 vendor-specific storage management or open-source orchestration frameworks.
 A CLI tool called `dmg` is built over the DAOS management API.
 For further reading on the management API and the `dmg` tool:
-- <a href="https://godoc.org/github.com/daos-stack/daos/src/control/client">DAOS management Go package</a>
+- <a href="https://godoc.org/github.com/mjmac/soad/src/control/client">DAOS management Go package</a>
 - <a href="control/cmd/dmg/README.md">DAOS Management tool (aka dmg)</a>
 
 The DAOS library (`libdaos`) implements the DAOS storage model and is

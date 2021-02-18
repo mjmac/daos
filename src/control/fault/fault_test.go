@@ -13,7 +13,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/fault"
+	"github.com/mjmac/soad/src/control/fault"
 )
 
 func TestFaults(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/drpc"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/drpc"
 )
 
 func TestDrpc_Status(t *testing.T) {

@@ -13,10 +13,10 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/lib/spdk"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/lib/spdk"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 // defCmpOpts returns a default set of cmp option suitable for this package

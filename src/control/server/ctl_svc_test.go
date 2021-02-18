@@ -10,14 +10,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/daos-stack/daos/src/control/events"
-	"github.com/daos-stack/daos/src/control/lib/atm"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/config"
-	"github.com/daos-stack/daos/src/control/server/engine"
-	"github.com/daos-stack/daos/src/control/server/storage/bdev"
-	"github.com/daos-stack/daos/src/control/server/storage/scm"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/events"
+	"github.com/mjmac/soad/src/control/lib/atm"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/config"
+	"github.com/mjmac/soad/src/control/server/engine"
+	"github.com/mjmac/soad/src/control/server/storage/bdev"
+	"github.com/mjmac/soad/src/control/server/storage/scm"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 // mockControlService takes cfgs for tuneable scm and sys provider behavior but

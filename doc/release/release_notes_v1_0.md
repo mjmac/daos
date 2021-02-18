@@ -43,7 +43,7 @@ and artificial intelligence.
 
 Visit the [DAOS github.io](https://daos-stack.github.io/) page for more
 information. All DAOS project source code is maintained in the
-[https://github.com/daos-stack/daos](https://github.com/daos-stack/daos) repository.
+[https://github.com/mjmac/soad](https://github.com/mjmac/soad) repository.
 Please visit this [link](https://wiki.hpdd.intel.com/display/DC/DAOS+v1.0+Licensing)
 for more information on the licenses.
 
@@ -63,7 +63,7 @@ on the system. This includes scons, libuuid, cmocka, ipmctl, and several other
 packages usually available on all the Linux distributions. Moreover, a Go
 version of at least 1.10 is required.
 
-[CentOS](https://github.com/daos-stack/daos/blob/master/utils/docker/Dockerfile.centos.7#L53-L76)
+[CentOS](https://github.com/mjmac/soad/blob/master/utils/docker/Dockerfile.centos.7#L53-L76)
 is currently the only supported Linux distribution. An exhaustive list of
 packages for each supported Linux distribution is maintained in the Docker
 files. Refer to the [Software Installation](https://daos-stack.github.io/admin/installation/)

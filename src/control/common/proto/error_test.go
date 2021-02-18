@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/common/proto"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/fault"
-	"github.com/daos-stack/daos/src/control/fault/code"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/common/proto"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/fault"
+	"github.com/mjmac/soad/src/control/fault/code"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 func TestProto_MetaFromFault(t *testing.T) {

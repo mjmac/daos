@@ -15,11 +15,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/events"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/security"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/events"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/security"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 const (

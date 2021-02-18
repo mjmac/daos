@@ -15,7 +15,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
+	"github.com/mjmac/soad/src/control/common"
 )
 
 // NVM API calls will fail if not run as root. We should just skip the tests.

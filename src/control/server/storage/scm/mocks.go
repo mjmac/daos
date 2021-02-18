@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 type (

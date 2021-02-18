@@ -30,10 +30,10 @@ fi
 
 # shellcheck disable=SC1091
 source ./.build_vars.sh
-rm -f "${SL_BUILD_DIR}/src/control/src/github.com/daos-stack/daos/src/control"
-mkdir -p "${SL_BUILD_DIR}/src/control/src/github.com/daos-stack/daos/src/"
+rm -f "${SL_BUILD_DIR}/src/control/src/github.com/mjmac/soad/src/control"
+mkdir -p "${SL_BUILD_DIR}/src/control/src/github.com/mjmac/soad/src/"
 ln -s ../../../../../../../../src/control \
-  "${SL_BUILD_DIR}/src/control/src/github.com/daos-stack/daos/src/control"
+  "${SL_BUILD_DIR}/src/control/src/github.com/mjmac/soad/src/control"
 DAOS_BASE=${SL_PREFIX%/install*}
 NODE=${NODELIST%%,*}
 mydir="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"

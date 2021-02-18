@@ -17,7 +17,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/common"
+	"github.com/mjmac/soad/src/control/common"
 )
 
 // mockReader is a mock used to represent a successful read of some text

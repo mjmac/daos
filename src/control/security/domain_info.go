@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 // DomainInfo holds our socket credentials to be used by the DomainSocketServer

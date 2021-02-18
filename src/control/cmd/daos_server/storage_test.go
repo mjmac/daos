@@ -11,14 +11,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/cmd/dmg/pretty"
-	"github.com/daos-stack/daos/src/control/common"
-	commands "github.com/daos-stack/daos/src/control/common/storage"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server"
-	"github.com/daos-stack/daos/src/control/server/storage"
-	"github.com/daos-stack/daos/src/control/server/storage/bdev"
-	"github.com/daos-stack/daos/src/control/server/storage/scm"
+	"github.com/mjmac/soad/src/control/cmd/dmg/pretty"
+	"github.com/mjmac/soad/src/control/common"
+	commands "github.com/mjmac/soad/src/control/common/storage"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server"
+	"github.com/mjmac/soad/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/server/storage/bdev"
+	"github.com/mjmac/soad/src/control/server/storage/scm"
 )
 
 func TestDaosServer_StoragePrepare(t *testing.T) {

@@ -12,12 +12,12 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/fault"
-	"github.com/daos-stack/daos/src/control/fault/code"
-	"github.com/daos-stack/daos/src/control/server/engine"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/fault"
+	"github.com/mjmac/soad/src/control/fault/code"
+	"github.com/mjmac/soad/src/control/server/engine"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 var (

@@ -6,7 +6,7 @@
 
 package control
 
-import "github.com/daos-stack/daos/src/control/common"
+import "github.com/mjmac/soad/src/control/common"
 
 // getRequestHosts returns a list of control plane addresses for
 // the request. If the request does not supply its own hostlist,

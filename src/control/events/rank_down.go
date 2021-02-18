@@ -7,9 +7,9 @@
 package events
 
 import (
-	"github.com/daos-stack/daos/src/control/common"
-	sharedpb "github.com/daos-stack/daos/src/control/common/proto/shared"
-	"github.com/daos-stack/daos/src/control/lib/atm"
+	"github.com/mjmac/soad/src/control/common"
+	sharedpb "github.com/mjmac/soad/src/control/common/proto/shared"
+	"github.com/mjmac/soad/src/control/lib/atm"
 )
 
 // RankStateInfo describes details of a rank's state.

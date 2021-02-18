@@ -7,7 +7,7 @@
 syntax = "proto3";
 package mgmt;
 
-option go_package = "github.com/daos-stack/daos/src/control/common/proto/mgmt";
+option go_package = "github.com/mjmac/soad/src/control/common/proto/mgmt";
 
 // Access Control List related protobuf structures
 

@@ -7,11 +7,11 @@
 package proto
 
 import (
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/common/proto/convert"
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/common/proto/convert"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 // NvmeHealth is an alias for protobuf NvmeController_Health message.

@@ -6,7 +6,7 @@ package mgmt
 import (
 	context "context"
 	fmt "fmt"
-	shared "github.com/daos-stack/daos/src/control/common/proto/shared"
+	shared "github.com/mjmac/soad/src/control/common/proto/shared"
 	proto "github.com/golang/protobuf/proto"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"

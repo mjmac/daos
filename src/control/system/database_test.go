@@ -26,10 +26,10 @@ import (
 	"github.com/hashicorp/raft"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/events"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/events"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 func waitForLeadership(ctx context.Context, t *testing.T, db *Database, gained bool, timeout time.Duration) {

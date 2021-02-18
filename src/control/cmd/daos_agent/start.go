@@ -14,9 +14,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/lib/atm"
-	"github.com/daos-stack/daos/src/control/lib/netdetect"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/lib/atm"
+	"github.com/mjmac/soad/src/control/lib/netdetect"
 )
 
 const (

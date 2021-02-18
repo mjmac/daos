@@ -7,9 +7,9 @@
 package proto
 
 import (
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 // MockNvmeNamespace is a mock protobuf Namespace message used in tests for

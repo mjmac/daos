@@ -16,11 +16,11 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/lib/netdetect"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/netdetect"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 type cliOptions struct {

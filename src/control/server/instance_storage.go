@@ -14,9 +14,9 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/server/storage"
-	"github.com/daos-stack/daos/src/control/server/storage/scm"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/server/storage/scm"
 )
 
 // scmConfig returns the scm configuration assigned to this instance.

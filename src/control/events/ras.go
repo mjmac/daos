@@ -20,10 +20,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/common/proto/convert"
-	sharedpb "github.com/daos-stack/daos/src/control/common/proto/shared"
-	"github.com/daos-stack/daos/src/control/lib/atm"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/common/proto/convert"
+	sharedpb "github.com/mjmac/soad/src/control/common/proto/shared"
+	"github.com/mjmac/soad/src/control/lib/atm"
 )
 
 // RASExtendedInfo provides extended information for an event.

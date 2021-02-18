@@ -14,8 +14,8 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
 )
 
 func defResCmpOpts() []cmp.Option {

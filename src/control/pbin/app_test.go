@@ -16,9 +16,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 func expectDefaultProcess(t *testing.T, app *App) {

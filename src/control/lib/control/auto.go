@@ -14,11 +14,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	nd "github.com/daos-stack/daos/src/control/lib/netdetect"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/config"
-	"github.com/daos-stack/daos/src/control/server/engine"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	nd "github.com/mjmac/soad/src/control/lib/netdetect"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/config"
+	"github.com/mjmac/soad/src/control/server/engine"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 const (

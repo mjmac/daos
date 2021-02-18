@@ -6,7 +6,7 @@ package ctl
 import (
 	context "context"
 	fmt "fmt"
-	_ "github.com/daos-stack/daos/src/control/common/proto/shared"
+	_ "github.com/mjmac/soad/src/control/common/proto/shared"
 	proto "github.com/golang/protobuf/proto"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"

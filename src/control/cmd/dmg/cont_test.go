@@ -13,7 +13,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/daos-stack/daos/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/control"
 )
 
 func TestContSetOwnerCommand(t *testing.T) {

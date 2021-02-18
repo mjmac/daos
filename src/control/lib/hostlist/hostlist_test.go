@@ -12,7 +12,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
 )
 
 func makeStringRef(in string) *string {

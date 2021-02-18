@@ -15,15 +15,15 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
 
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
-	srvpb "github.com/daos-stack/daos/src/control/common/proto/srv"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/lib/atm"
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/storage/bdev"
-	"github.com/daos-stack/daos/src/control/server/storage/scm"
-	"github.com/daos-stack/daos/src/control/system"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
+	srvpb "github.com/mjmac/soad/src/control/common/proto/srv"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/lib/atm"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/storage/bdev"
+	"github.com/mjmac/soad/src/control/server/storage/scm"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 type (

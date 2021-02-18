@@ -11,9 +11,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/common/proto/convert"
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	"github.com/daos-stack/daos/src/control/lib/netdetect"
+	"github.com/mjmac/soad/src/control/common/proto/convert"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	"github.com/mjmac/soad/src/control/lib/netdetect"
 )
 
 var (

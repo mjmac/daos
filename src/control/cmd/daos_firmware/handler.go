@@ -12,10 +12,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/pbin"
-	"github.com/daos-stack/daos/src/control/server/storage/bdev"
-	"github.com/daos-stack/daos/src/control/server/storage/scm"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/pbin"
+	"github.com/mjmac/soad/src/control/server/storage/bdev"
+	"github.com/mjmac/soad/src/control/server/storage/scm"
 )
 
 func getNilRequestResp() *pbin.Response {

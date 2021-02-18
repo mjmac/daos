@@ -40,7 +40,7 @@ associated membership.
 Please refer to package-specific README's.
 
 - [server](/src/control/server/README.md)
-- [godoc reference](https://godoc.org/github.com/daos-stack/daos/src/control)
+- [godoc reference](https://godoc.org/github.com/mjmac/soad/src/control)
 
 ## User Documentation
 

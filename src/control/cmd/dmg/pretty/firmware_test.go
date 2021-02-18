@@ -14,8 +14,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 func TestPretty_PrintSCMFirmwareQueryMap(t *testing.T) {

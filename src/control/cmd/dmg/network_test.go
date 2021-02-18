@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/daos-stack/daos/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/control"
 )
 
 func TestNetworkCommands(t *testing.T) {

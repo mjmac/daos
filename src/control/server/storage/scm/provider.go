@@ -16,10 +16,10 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/pbin"
-	"github.com/daos-stack/daos/src/control/provider/system"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/pbin"
+	"github.com/mjmac/soad/src/control/provider/system"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 const (

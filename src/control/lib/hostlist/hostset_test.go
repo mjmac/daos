@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
 )
 
 // NB: The testing here is minimal because the bulk of the logic is in HostList. We

@@ -48,7 +48,7 @@ func TestDmg_ManPageIsCurrent(t *testing.T) {
 	strippedGolden := stripDate(goldenBytes)
 
 	// TODO: Figure out how to find this dynamically
-	pkgPath := "github.com/daos-stack/daos/src/control/cmd/dmg"
+	pkgPath := "github.com/mjmac/soad/src/control/cmd/dmg"
 	if diff := cmp.Diff(strippedGolden, strippedGenerated); diff != "" {
 		t.Fatalf("%s is out of date.\nRun `go test %s -run %s -args --update` to update it and then commit it.", goldenPath, pkgPath, t.Name())
 	}

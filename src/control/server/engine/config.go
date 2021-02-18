@@ -11,8 +11,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/server/storage"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 const (

@@ -17,9 +17,9 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"github.com/daos-stack/daos/src/control/common/proto"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/security"
+	"github.com/mjmac/soad/src/control/common/proto"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/security"
 )
 
 func checkAccess(ctx context.Context, FullMethod string) error {

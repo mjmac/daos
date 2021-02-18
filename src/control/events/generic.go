@@ -7,7 +7,7 @@
 package events
 
 import (
-	sharedpb "github.com/daos-stack/daos/src/control/common/proto/shared"
+	sharedpb "github.com/mjmac/soad/src/control/common/proto/shared"
 )
 
 // StrInfo contains opaque blob of type string to hold custom details for a

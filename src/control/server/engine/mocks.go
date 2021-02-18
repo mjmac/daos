@@ -10,7 +10,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/daos-stack/daos/src/control/lib/atm"
+	"github.com/mjmac/soad/src/control/lib/atm"
 )
 
 type (

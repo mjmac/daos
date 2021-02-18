@@ -11,10 +11,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server"
-	"github.com/daos-stack/daos/src/control/server/config"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server"
+	"github.com/mjmac/soad/src/control/server/config"
 )
 
 type serverStarter func(*logging.LeveledLogger, *config.Server) error

@@ -10,7 +10,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/daos-stack/daos/src/control/build"
+	"github.com/mjmac/soad/src/control/build"
 	"github.com/pkg/errors"
 )
 

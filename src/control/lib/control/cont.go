@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
 )
 
 // ContSetOwnerReq contains the parameters for the set owner request

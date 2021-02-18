@@ -14,7 +14,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/build"
+	"github.com/mjmac/soad/src/control/build"
 )
 
 var (

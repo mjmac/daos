@@ -12,12 +12,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/common"
-	srvpb "github.com/daos-stack/daos/src/control/common/proto/srv"
-	"github.com/daos-stack/daos/src/control/events"
-	"github.com/daos-stack/daos/src/control/server/engine"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/common"
+	srvpb "github.com/mjmac/soad/src/control/common/proto/srv"
+	"github.com/mjmac/soad/src/control/events"
+	"github.com/mjmac/soad/src/control/server/engine"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 // EngineRunner defines an interface for starting and stopping the

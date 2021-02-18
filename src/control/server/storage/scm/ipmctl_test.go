@@ -14,12 +14,12 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	. "github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/common/proto"
-	"github.com/daos-stack/daos/src/control/lib/ipmctl"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/common"
+	. "github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/common/proto"
+	"github.com/mjmac/soad/src/control/lib/ipmctl"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 // MockDiscovery returns a mock SCM module of type exported from ipmctl.

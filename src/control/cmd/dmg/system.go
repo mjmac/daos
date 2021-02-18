@@ -15,12 +15,12 @@ import (
 	"github.com/dustin/go-humanize/english"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/cmd/dmg/pretty"
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
-	"github.com/daos-stack/daos/src/control/lib/txtfmt"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/system"
+	"github.com/mjmac/soad/src/control/cmd/dmg/pretty"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/lib/txtfmt"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 // SystemCmd is the struct representing the top-level system subcommand.

@@ -15,8 +15,8 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/lib/control"
 )
 
 func TestPretty_PrintPoolQueryResp(t *testing.T) {

@@ -6,8 +6,8 @@
 package scm
 
 import (
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/pbin"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/pbin"
 )
 
 // AdminForwarder forwards requests to the DAOS admin binary.

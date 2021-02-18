@@ -13,9 +13,9 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/lib/txtfmt"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/txtfmt"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 // printHostStorageMapVerbose generates a human-readable representation of the supplied

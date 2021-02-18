@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/daos-stack/daos/src/control/common"
-	ctlpb "github.com/daos-stack/daos/src/control/common/proto/ctl"
-	mgmtpb "github.com/daos-stack/daos/src/control/common/proto/mgmt"
+	"github.com/mjmac/soad/src/control/common"
+	ctlpb "github.com/mjmac/soad/src/control/common/proto/ctl"
+	mgmtpb "github.com/mjmac/soad/src/control/common/proto/mgmt"
 )
 
 func TestSecurity_CommonNameToComponent(t *testing.T) {

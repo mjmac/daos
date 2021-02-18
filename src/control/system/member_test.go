@@ -14,9 +14,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	. "github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/common/proto/convert"
+	"github.com/mjmac/soad/src/control/common"
+	. "github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/common/proto/convert"
 )
 
 func TestSystem_Member_Stringify(t *testing.T) {

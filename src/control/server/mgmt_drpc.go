@@ -11,12 +11,12 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	sharedpb "github.com/daos-stack/daos/src/control/common/proto/shared"
-	srvpb "github.com/daos-stack/daos/src/control/common/proto/srv"
-	"github.com/daos-stack/daos/src/control/drpc"
-	"github.com/daos-stack/daos/src/control/events"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/system"
+	sharedpb "github.com/mjmac/soad/src/control/common/proto/shared"
+	srvpb "github.com/mjmac/soad/src/control/common/proto/srv"
+	"github.com/mjmac/soad/src/control/drpc"
+	"github.com/mjmac/soad/src/control/events"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/system"
 )
 
 // mgmtModule represents the daos_server mgmt dRPC module. It sends dRPCs to

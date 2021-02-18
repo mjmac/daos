@@ -11,9 +11,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/build"
-	"github.com/daos-stack/daos/src/control/fault"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/build"
+	"github.com/mjmac/soad/src/control/fault"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 // RequestHandler is an interface that handles a pbin.Request.

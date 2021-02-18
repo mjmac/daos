@@ -86,7 +86,7 @@ def install_go_bin(denv, gosrc, libs, name, install_name):
 
     def go_ldflags():
         "Create the ldflags option for the Go build."
-        path = 'github.com/daos-stack/daos/src/control/build'
+        path = 'github.com/mjmac/soad/src/control/build'
         return ' '.join(['-ldflags',
                          '"-X {}.DaosVersion={}'.format(path, daos_version),
                          '-X {}.ConfigDir={}'.format(path, conf_dir),

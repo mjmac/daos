@@ -9,7 +9,7 @@ package control
 import (
 	"io/ioutil"
 
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 // defaultLogger is used to provide a valid logger when none has

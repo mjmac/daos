@@ -12,9 +12,9 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/daos-stack/daos/src/control/cmd/dmg/pretty"
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/lib/netdetect"
+	"github.com/mjmac/soad/src/control/cmd/dmg/pretty"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/netdetect"
 )
 
 // configCmd is the struct representing the top-level config subcommand.

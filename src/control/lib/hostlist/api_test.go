@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
 )
 
 func cmpErr(t *testing.T, want, got error) {

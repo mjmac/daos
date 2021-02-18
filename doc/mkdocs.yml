@@ -6,8 +6,8 @@ site_url: http://daos.io
 site_dir: ../site
 
 # Repository
-repo_name: daos-stack/daos
-repo_url: https://github.com/daos-stack/daos
+repo_name: mjmac/soad
+repo_url: https://github.com/mjmac/soad
 edit_url: ""
 
 # Theme
@@ -66,7 +66,7 @@ nav:
     - Developer Zone:
         - 'Dev Environment': 'dev/development.md'
         - 'Contributing': 'dev/contributing.md'
-        - 'DAOS Internals': 'https://github.com/daos-stack/daos/blob/master/src/README.md'
+        - 'DAOS Internals': 'https://github.com/mjmac/soad/blob/master/src/README.md'
         - 'DAOS API Documentation': 'html/index.html'
     - Community Wiki: 'https://wiki.hpdd.intel.com'
     - Roadmap: 'https://wiki.hpdd.intel.com/display/DC/Roadmap/'

@@ -8,8 +8,8 @@ package spdk
 import (
 	"fmt"
 
-	"github.com/daos-stack/daos/src/control/fault"
-	"github.com/daos-stack/daos/src/control/fault/code"
+	"github.com/mjmac/soad/src/control/fault"
+	"github.com/mjmac/soad/src/control/fault/code"
 )
 
 var (

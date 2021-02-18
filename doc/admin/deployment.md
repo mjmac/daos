@@ -72,9 +72,9 @@ on the command line (`daos_server -h` for usage) or it will be read from
 the default location (`/etc/daos/daos_server.yml`).
 
 Parameter descriptions are specified in
-[`daos_server.yml`](https://github.com/daos-stack/daos/blob/master/utils/config/daos_server.yml)
+[`daos_server.yml`](https://github.com/mjmac/soad/blob/master/utils/config/daos_server.yml)
 and example configuration files in the
-[examples](https://github.com/daos-stack/daos/tree/master/utils/config/examples)
+[examples](https://github.com/mjmac/soad/tree/master/utils/config/examples)
 directory.
 
 Any option supplied to `daos_server` as a command line option or flag will
@@ -88,14 +88,14 @@ file for reference, and the location will be written to the log.
 The example configuration file lists the default empty configuration, listing
 all the options (living documentation of the config file). Live examples are
 available at
-<https://github.com/daos-stack/daos/tree/master/utils/config/examples>
+<https://github.com/mjmac/soad/tree/master/utils/config/examples>
 
 The location of this configuration file is determined by first checking
 for the path specified through the -o option of the `daos_server` command
 line, if unspecified then `/etc/daos/daos_server.yml` is used.
 
 Refer to the example configuration file (
-[`daos_server.yml`](https://github.com/daos-stack/daos/blob/master/utils/config/daos_server.yml)
+[`daos_server.yml`](https://github.com/mjmac/soad/blob/master/utils/config/daos_server.yml)
 ) for latest information and examples.
 
 At this point of the process, the servers: and provider: section of the yaml
@@ -383,7 +383,7 @@ performed via the `dmg` utility.
 To set the addresses of which DAOS Servers to task, provide either:
 - `-l <hostlist>` on the commandline when invoking, or
 - `hostlist: <hostlist>` in the control configuration file
-[`daos_control.yml`](https://github.com/daos-stack/daos/blob/master/utils/config/daos_control.yml)
+[`daos_control.yml`](https://github.com/mjmac/soad/blob/master/utils/config/daos_control.yml)
 
 Where `<hostlist>` represents a slurm-style hostlist string e.g.
 `foo-1[28-63],bar[256-511]`.
@@ -1005,7 +1005,7 @@ on the command line (`daos_agent -h` for usage) or default location
 (`/etc/daos/daos_agent.yml`).
 
 Parameter descriptions are specified in
-[`daos_agent.yml`](https://github.com/daos-stack/daos/blob/master/utils/config/daos_agent.yml).
+[`daos_agent.yml`](https://github.com/mjmac/soad/blob/master/utils/config/daos_agent.yml).
 
 Any option supplied to `daos_agent` as a command line option or flag will take
 precedence over equivalent configuration file parameter.
@@ -1019,14 +1019,14 @@ available in the configuration file.
 The example configuration file lists the default empty configuration listing
 all the options (living documentation of the config file).
 Live examples are available
-[here](https://github.com/daos-stack/daos/tree/master/utils/config).
+[here](https://github.com/mjmac/soad/tree/master/utils/config).
 
 The location of this configuration file is determined by first checking
 for the path specified through the `-o` option of the `daos_agent` command
 line, if not set then `/etc/daos/daos_agent.yml` is used.
 
 Refer to the example configuration file (
-[`daos_agent.yml`](https://github.com/daos-stack/daos/blob/master/utils/config/daos_agent.yml)
+[`daos_agent.yml`](https://github.com/mjmac/soad/blob/master/utils/config/daos_agent.yml)
 ) for latest information and examples.
 
 ### Agent Startup
@@ -1142,8 +1142,8 @@ each storage node.
 
 [^1]: https://github.com/intel/ipmctl
 
-[^2]: https://github.com/daos-stack/daos/tree/master/utils/config
+[^2]: https://github.com/mjmac/soad/tree/master/utils/config
 
 [^3]: [*https://www.open-mpi.org/faq/?category=running\#mpirun-hostfile*](https://www.open-mpi.org/faq/?category=running#mpirun-hostfile)
 
-[^4]: https://github.com/daos-stack/daos/tree/master/src/control/README.md
+[^4]: https://github.com/mjmac/soad/tree/master/src/control/README.md

@@ -6,7 +6,7 @@
 
 package pretty
 
-import "github.com/daos-stack/daos/src/control/system"
+import "github.com/mjmac/soad/src/control/system"
 
 // FormatRanks takes a slice of uint32 ranks and returns a string
 // representation of the set created from the slice.

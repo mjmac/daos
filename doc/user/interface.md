@@ -14,12 +14,12 @@ files. The Doxygen documentation is available
 
 ## Python Bindings
 
-A python module called [PyDAOS](https://github.com/daos-stack/daos/blob/master/src/client/pydaos)
+A python module called [PyDAOS](https://github.com/mjmac/soad/blob/master/src/client/pydaos)
 provides the DAOS API to python users.
 
 ### pydaos
 
-[pydaos](https://github.com/daos-stack/daos/blob/master/src/client/pydaos/pydaos_core.py)
+[pydaos](https://github.com/mjmac/soad/blob/master/src/client/pydaos/pydaos_core.py)
 provides a native DAOS python interface exported by a C module. It integrates
 the DAOS key-value store API with python dictionaries. Only strings are
 supported for both the key and value for now.
@@ -70,9 +70,9 @@ turnaround time on implementing test cases for DAOS.
 The Python API is split into several files based on functionality:
 
 * The Python object API:
-  [daos_api.py](https://github.com/daos-stack/daos/tree/master/src/client/pydaos/raw/daos_api.py).
+  [daos_api.py](https://github.com/mjmac/soad/tree/master/src/client/pydaos/raw/daos_api.py).
 * The mapping of C structures to Python classes
-  [daos_cref.py](https://github.com/daos-stack/daos/tree/master/src/client/pydaos/raw/daos_cref.py)
+  [daos_cref.py](https://github.com/mjmac/soad/tree/master/src/client/pydaos/raw/daos_cref.py)
 
 High-level abstraction classes exist to manipulate DAOS storage:
 ```python
@@ -224,6 +224,6 @@ self.d_log.ERROR("Something went very wrong")
 
 API bindings for Go[^2] are also available.
 
-[^1]: https://github.com/daos-stack/daos/blob/master/src/client/pydaos/raw/README.md
+[^1]: https://github.com/mjmac/soad/blob/master/src/client/pydaos/raw/README.md
 
 [^2]: https://godoc.org/github.com/daos-stack/go-daos/pkg/daos

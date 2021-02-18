@@ -5,7 +5,7 @@ package ctl
 
 import (
 	fmt "fmt"
-	shared "github.com/daos-stack/daos/src/control/common/proto/shared"
+	shared "github.com/mjmac/soad/src/control/common/proto/shared"
 	proto "github.com/golang/protobuf/proto"
 	math "math"
 )

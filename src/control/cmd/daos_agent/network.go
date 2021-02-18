@@ -11,9 +11,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/daos-stack/daos/src/control/cmd/dmg/pretty"
-	"github.com/daos-stack/daos/src/control/lib/control"
-	"github.com/daos-stack/daos/src/control/lib/netdetect"
+	"github.com/mjmac/soad/src/control/cmd/dmg/pretty"
+	"github.com/mjmac/soad/src/control/lib/control"
+	"github.com/mjmac/soad/src/control/lib/netdetect"
 )
 
 const (

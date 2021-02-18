@@ -17,10 +17,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/events"
-	"github.com/daos-stack/daos/src/control/lib/hostlist"
-	"github.com/daos-stack/daos/src/control/logging"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/events"
+	"github.com/mjmac/soad/src/control/lib/hostlist"
+	"github.com/mjmac/soad/src/control/logging"
 )
 
 // resolveTCPFn is a type alias for the net.ResolveTCPAddr function signature.

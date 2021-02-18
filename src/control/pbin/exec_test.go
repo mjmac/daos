@@ -16,9 +16,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/daos-stack/daos/src/control/common"
-	"github.com/daos-stack/daos/src/control/logging"
-	"github.com/daos-stack/daos/src/control/pbin"
+	"github.com/mjmac/soad/src/control/common"
+	"github.com/mjmac/soad/src/control/logging"
+	"github.com/mjmac/soad/src/control/pbin"
 )
 
 func reqRes() {

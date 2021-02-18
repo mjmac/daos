@@ -13,8 +13,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/daos-stack/daos/src/control/lib/txtfmt"
-	"github.com/daos-stack/daos/src/control/server/storage"
+	"github.com/mjmac/soad/src/control/lib/txtfmt"
+	"github.com/mjmac/soad/src/control/server/storage"
 )
 
 func printScmMountPoints(mountpoints storage.ScmMountPoints, out io.Writer, opts ...PrintConfigOption) error {
